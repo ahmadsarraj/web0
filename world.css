@@ -1,0 +1,96 @@
+body{
+   margin:0;
+   padding: 0; 
+   background-color: white;
+}
+
+.logo img{
+    margin-top: 10px;
+}
+#intitle{
+    position: absolute;
+    top: 15px;
+    right: 9px;
+}
+.bar{
+    position: absolute;
+    top:90px;
+    width: 100%;
+    border: 1px solid white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid white;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  img{
+    width:200px;
+    height: 200px;
+    margin:3px;
+   
+}
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .card{
+      margin-top:90px;
+      float: left;
+      margin-left: 20px;
+      background-color:  rgb(48, 46, 46);
+      padding: 20px;
+  }
+  .card-img-top{
+      padding-left: 40px;
+  }
+  .input-group-text  {
+/*position: absolute;
+right:50px;*/
+background :none;
+outline: none;
+border:none;
+background-color: rgba(17, 17, 17, 0);
+  border-bottom: 2px solid white;
+  width: 300px;
+
+  }
+
+  .botton{
+    color:white;
+    background :none;
+outline: none;
+border:none;
+background-color: rgba(17, 17, 17, 0);
+  }
+input:focus{
+    background-color:white ;
+    color: black;
+}
+.bar ul :last-child{
+border-right: none;
+padding-left: 20px;
+padding-top: 15px;
+}
+.bar5{
+  color: white;
+  position: absolute;
+  top:15px;
+  right: 320px;
+}
